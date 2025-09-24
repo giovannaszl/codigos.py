@@ -1,0 +1,12 @@
+while True:
+        
+        numero = int(input("Digite um número entre 0 e 10: "))
+
+        if numero > 10:
+            print(" Número inválido. Tente novamente.")
+        else:
+            print("Número válido.")
+            break
+
+        # usa o while, faz a variavel while, usa o if else e quando o numero for 0 quebra.
+
